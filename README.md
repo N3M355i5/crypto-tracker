@@ -18,6 +18,9 @@
 ## Demo<a name="demo"></a>
 Check: <a href="https://cryptohunter-in.netlify.app" target="_blank">Live Website</a>
 
+![demo-video](https://user-images.githubusercontent.com/57187857/145460400-bd620734-33e7-4703-96e2-2db01e868094.gif)
+
+
 ## Installation<a name="installation" target="_blank"></a>
 ### Running Locally
 Make sure you have [React.js](https://reactjs.org/) and [npm](https://www.npmjs.com/) installed.
