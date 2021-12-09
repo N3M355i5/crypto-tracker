@@ -1,17 +1,48 @@
 <div align="center">
-    <a href="https://new.expensify.com">
-        <img src="https://raw.githubusercontent.com/Expensify/App/main/web/favicon.png" width="64" height="64" alt="New Expensify Icon">
+    <a href="https://cryptohunter-in.netlify.app">
+        <img src="https://github.com/N3M355i5/crypto-tracker/blob/main/public/logo512.png" width="64" height="64" alt="Crypto Hunter Icon">
     </a>
     <h1>
-        <a href="https://new.expensify.com">
-            New Expensify
+        <a href="https://cryptohunter-in.netlify.app">
+            Crypto Hunter India
         </a>
     </h1>
 </div>
 
-https://github.com/N3M355i5/crypto-tracker/blob/main/public/logo512.png
 
-# Getting Started with Create React App
+# A Real Time Crypto Tracker built using React.js, Chart.js, Axios & MaterialUI.
+
+## Index
++ [Demo](#demo)
++ [Installation](#installation)
++ [Create React App](#create-react-app)
+
+## Demo<a name="demo"></a>
+Check [Live Website](http://cryptohunter-in.netlify.app)
+
+## Installation<a name="installation"></a>
+### Running Locally
+Make sure you have [React.js](https://reactjs.org/) and [npm](https://www.npmjs.com/) installed.
+
+1. Clone or Download the repository
+
+	```
+	$ git clone https://github.com/N3M355i5/crypto-tracker
+	$ cd crypto-tracker
+	```
+2. Install Dependencies
+
+	```
+	$ npm install
+	```
+3. Start the application
+
+	```
+	$ npm start
+	```
+Your app should now be running on [localhost:3000](http://localhost:3000/).
+
+## Create React App Functionality<a name="create-react-app"></a>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -41,38 +72,6 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
 
