@@ -8,7 +8,6 @@ import {
   TableCell,
   TableContainer,
   TableHead,
-  TablePagination,
   TableRow,
   TextField,
   Typography,
@@ -33,7 +32,6 @@ const CoinsTable = () => {
   let navigate = useNavigate();
 
   const { currency, symbol } = CryptoState();
-
   const fetchCoins = async () => {
     setLoading(true);
 
@@ -47,6 +45,7 @@ const CoinsTable = () => {
 
   useEffect(() => {
     fetchCoins();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currency]);
 
   let darkTheme = createTheme({

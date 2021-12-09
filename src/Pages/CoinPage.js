@@ -26,6 +26,7 @@ const CoinPage = () => {
 
   useEffect(() => {
     fetchCoin();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const useStyles = makeStyles((theme) => ({
@@ -88,7 +89,7 @@ const CoinPage = () => {
       <div className={classes.sidebar}>
         <img
           src={coin?.image.large}
-          alt={coin?.name}
+          alt=""
           height="200"
           style={{
             marginBottom: 20,

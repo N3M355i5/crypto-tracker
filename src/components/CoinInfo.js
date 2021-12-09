@@ -6,9 +6,9 @@ import {
 } from "@material-ui/core";
 import axios from "axios";
 import React, { useState, useEffect } from "react";
-import { Classnames } from "react-alice-carousel";
+// eslint-disable-next-line
 import { Chart as ChartJS } from "chart.js/auto";
-import { Chart, Line } from "react-chartjs-2";
+import { Line } from "react-chartjs-2";
 import { HistoricalChart } from "../config/api";
 import { CryptoState } from "../CryptoContext";
 import { chartDays } from "../config/data";
@@ -18,7 +18,7 @@ const CoinInfo = ({ coin }) => {
   const [historicData, setHistoricData] = useState();
   const [days, setDays] = useState(1);
 
-  const { currency, symbol } = CryptoState();
+  const { currency } = CryptoState();
   const fetchHistoricalData = async () => {
     const { data } = await axios.get(HistoricalChart(coin.id, days, currency));
 
@@ -27,6 +27,7 @@ const CoinInfo = ({ coin }) => {
 
   useEffect(() => {
     fetchHistoricalData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currency, days]);
 
   const darkTheme = createTheme({
