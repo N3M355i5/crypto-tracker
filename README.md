@@ -1,16 +1,14 @@
 <div align="center">
-    <a href="https://cryptohunter-in.netlify.app">
+    <a href="https://cryptohunter-in.netlify.app" target="_blank">
         <img src="https://github.com/N3M355i5/crypto-tracker/blob/main/public/logo512.png" width="150" height="150" alt="Crypto Hunter Icon">
     </a>
     <h1>
-        <a href="https://cryptohunter-in.netlify.app">
+        <a href="https://cryptohunter-in.netlify.app" target="_blank">
             Crypto Hunter India
         </a>
     </h1>
+	<h2>A Real Time Crypto Tracker built using React.js, Chart.js, Axios & MaterialUI.</h2>
 </div>
-
-
-# A Real Time Crypto Tracker built using React.js, Chart.js, Axios & MaterialUI.
 
 ## Index
 + [Demo](#demo)
@@ -18,9 +16,9 @@
 + [Create React App](#create-react-app)
 
 ## Demo<a name="demo"></a>
-Check [Live Website](http://cryptohunter-in.netlify.app)
+Check: <a href="https://cryptohunter-in.netlify.app" target="_blank">Live Website</a>
 
-## Installation<a name="installation"></a>
+## Installation<a name="installation" target="_blank"></a>
 ### Running Locally
 Make sure you have [React.js](https://reactjs.org/) and [npm](https://www.npmjs.com/) installed.
 
