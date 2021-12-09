@@ -1,6 +1,6 @@
 <div align="center">
     <a href="https://cryptohunter-in.netlify.app">
-        <img src="https://github.com/N3M355i5/crypto-tracker/blob/main/public/logo512.png" width="100" height="100" alt="Crypto Hunter Icon">
+        <img src="https://github.com/N3M355i5/crypto-tracker/blob/main/public/logo512.png" width="150" height="150" alt="Crypto Hunter Icon">
     </a>
     <h1>
         <a href="https://cryptohunter-in.netlify.app">
