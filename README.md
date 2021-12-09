@@ -1,3 +1,16 @@
+<div align="center">
+    <a href="https://new.expensify.com">
+        <img src="https://raw.githubusercontent.com/Expensify/App/main/web/favicon.png" width="64" height="64" alt="New Expensify Icon">
+    </a>
+    <h1>
+        <a href="https://new.expensify.com">
+            New Expensify
+        </a>
+    </h1>
+</div>
+
+https://github.com/N3M355i5/crypto-tracker/blob/main/public/logo512.png
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
